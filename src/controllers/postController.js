@@ -1,4 +1,6 @@
 import { PrismaClient } from "@prisma/client";
+import { getIO } from "../socket/io.js";
+
 const prisma = new PrismaClient();
 
 export const index = async (req, res) => {
@@ -19,13 +21,14 @@ export const store = async (req, res) => {
       }
     });
 
+    getIO()?.emit('new_post', post);
     res.status(201).json(post);
   } catch (e) {
     res.status(400).json({ error: e.message });
   }
 };
 
-export const detail = async (req, res) => {
+export const show = async (req, res) => {
   try {
     const post = await prisma.post.findUniqueOrThrow({
       where: {
@@ -51,6 +54,7 @@ export const update = async (req, res) => {
       }
     });
 
+    getIO()?.emit('updated_post', post);
     res.status(204).json(post);
   } catch (e) {
     res.status(404).json({ error: e.message });
@@ -65,6 +69,7 @@ export const destroy = async (req, res) => {
       }
     });
 
+    getIO()?.emit('deleted_post', post);
     res.status(204).json(post);
   } catch (e) {
     res.status(404).json({ error: e.message });

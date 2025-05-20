@@ -1,0 +1,32 @@
+DELETE http://localhost:5000/post/89
+Accept: application/json
+
+###
+PUT http://localhost:5000/post/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Mang Uday",
+  "content": "Purbasana"
+}
+
+
+###
+GET http://localhost:5000/post/288
+Accept: application/json
+
+###
+GET http://localhost:5000/post
+Accept: application/json
+
+
+### Send POST request with json body
+POST http://localhost:5000/post
+Content-Type: application/json
+
+{
+  "title": "Jhahaha",
+  "content": "komarudin ini sangat sangat bagus banget dong"
+}
+

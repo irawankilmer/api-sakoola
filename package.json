@@ -1,0 +1,22 @@
+{
+  "name": "api-sakoola",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API sistem manajemen sekolah lengkap",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "irawankillmer@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  }
+}

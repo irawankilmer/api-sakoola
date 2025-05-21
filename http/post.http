@@ -1,8 +1,9 @@
-DELETE http://localhost:5000/post/89
+### Delete data
+DELETE http://localhost:8080/api/v1/post/89
 Accept: application/json
 
-###
-PUT http://localhost:5000/post/3
+### Update data
+PUT http://localhost:8080/api/v1/post/3
 Content-Type: application/json
 Accept: application/json
 
@@ -12,17 +13,17 @@ Accept: application/json
 }
 
 
-###
-GET http://localhost:5000/post/288
+### Ambil data tertentu
+GET http://localhost:8080/api/v1/post/14
 Accept: application/json
 
-###
-GET http://localhost:5000/post
+### Ambil semua data
+GET http://localhost:8080/api/v1/post
 Accept: application/json
 
 
-### Send POST request with json body
-POST http://localhost:5000/post
+### Tambah data
+POST http://localhost:8080/api/v1/post
 Content-Type: application/json
 
 {

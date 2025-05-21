@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { getIO } from "../socket/io.js";
+import { getIO } from "../sockets/io.js";
 
 const prisma = new PrismaClient();
 

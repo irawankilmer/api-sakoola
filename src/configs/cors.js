@@ -1,6 +1,7 @@
-const allowedOrigins = [
-  'http://localhost:3000',
-];
+import dotenv from "dotenv";
+dotenv.config();
+
+const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || [];
 
 export const corsOptions = {
   origin: function (origin, callback) {

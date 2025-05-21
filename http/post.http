@@ -1,29 +1,34 @@
 ### Delete data
 DELETE http://localhost:8080/api/v1/post/89
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
 Accept: application/json
 
 ### Update data
-PUT http://localhost:8080/api/v1/post/3
+PUT http://localhost:8080/api/v1/post/28
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
 Content-Type: application/json
 Accept: application/json
 
 {
-  "title": "Mang Uday",
-  "content": "Purbasana"
+  "title": "Pir mikilir",
+  "content": "santana"
 }
 
 
 ### Ambil data tertentu
 GET http://localhost:8080/api/v1/post/14
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
 Accept: application/json
 
 ### Ambil semua data
 GET http://localhost:8080/api/v1/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
 Accept: application/json
 
 
 ### Tambah data
 POST http://localhost:8080/api/v1/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
 Content-Type: application/json
 
 {

@@ -1,11 +1,26 @@
 ## api-sakoola
 
-## Library
-- [Socket IO](https://socket.io/)
-- [Passport JS](https://www.passportjs.org/)
-- [Helmet](https://helmetjs.github.io/)
-- [Rate Limiting Middleware](https://www.npmjs.com/package/express-rate-limit)
-- [JWT (JSON Web Tokens)](https://jwt.io/)
-- [CORS (Cross-Origin Resource Sharing)](https://www.npmjs.com/package/cors)
-- [Morgan](https://expressjs.com/en/resources/middleware/morgan.html)
-- [Swagger](https://swagger.io/)
+## install
+- Clone project
+```gitexclude
+git clone https://github.com/irawankilmer/api-sakoola.git
+```
+
+- Install
+```gitexclude
+cd api-sakoola
+```
+```gitexclude
+npm install
+```
+- Setting<br>
+Buat file .env lalu isinya copy semua dari file .env.example<br>
+Sesuaikan value-nya
+- Generate prisma
+```gitexclude
+npx prisma generate
+```
+- run project
+```gitexclude
+npm run dev
+```

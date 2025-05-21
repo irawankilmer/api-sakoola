@@ -1,0 +1,32 @@
+### Delete data
+DELETE http://localhost:8080/api/v1/role/89
+Accept: application/json
+
+### Update data
+PUT http://localhost:8080/api/v1/role/27
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Mang Uday",
+  "content": "Purbasana"
+}
+
+
+### Ambil data tertentu
+GET http://localhost:8080/api/v1/role/14
+Accept: application/json
+
+### Ambil semua data
+GET http://localhost:8080/api/v1/role
+Accept: application/json
+
+
+### Tambah data
+POST http://localhost:8080/api/v1/role
+Content-Type: application/json
+
+{
+  "name": "admin"
+}
+

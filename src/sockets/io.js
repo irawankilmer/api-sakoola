@@ -1,5 +1,5 @@
 import { Server } from "socket.io";
-import { corsOptions } from "../configs/cors.js";
+import { corsOptions } from "../configs/corsConfig.js";
 
 let io;
 

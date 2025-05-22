@@ -1,11 +1,11 @@
 ### Delete data
 DELETE http://localhost:8080/api/v1/post/89
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTc0NzkwNDIyOCwiZXhwIjoxNzQ3OTA1MTI4fQ.Rou4CuQGESJO-jSOf681esTvtD5hX0lOfbu7a2MAOOE
 Accept: application/json
 
 ### Update data
 PUT http://localhost:8080/api/v1/post/28
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTc0NzkwNDIyOCwiZXhwIjoxNzQ3OTA1MTI4fQ.Rou4CuQGESJO-jSOf681esTvtD5hX0lOfbu7a2MAOOE
 Content-Type: application/json
 Accept: application/json
 
@@ -17,18 +17,18 @@ Accept: application/json
 
 ### Ambil data tertentu
 GET http://localhost:8080/api/v1/post/14
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTc0NzkwNDIyOCwiZXhwIjoxNzQ3OTA1MTI4fQ.Rou4CuQGESJO-jSOf681esTvtD5hX0lOfbu7a2MAOOE
 Accept: application/json
 
 ### Ambil semua data
 GET http://localhost:8080/api/v1/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVzIjpbImFkbWluIl0sImlhdCI6MTc0NzkwNDIyOCwiZXhwIjoxNzQ3OTA1MTI4fQ.Rou4CuQGESJO-jSOf681esTvtD5hX0lOfbu7a2MAOOE
 Accept: application/json
 
 
 ### Tambah data
 POST http://localhost:8080/api/v1/post
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg0NzcxNywiZXhwIjoxNzQ3OTM0MTE3fQ.-Cpkvgop8x4GE4-11SO2WWhNUYE6E6bQKoh6o8bOV48
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVzIjpbbnVsbF0sImlhdCI6MTc0Nzg5NjkxMiwiZXhwIjoxNzQ3OTgzMzEyfQ.nJzy-3qzVkmkYqbW7_z1BUiZkUcpVlKBjSP050qCuj8
 Content-Type: application/json
 
 {

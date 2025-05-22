@@ -1,5 +1,3 @@
-import passport from "passport";
-import { authorizeRoles } from "../middlewares/authorize.js";
 import {
   index,
   store,
